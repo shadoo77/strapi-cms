@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_maintenance_maintenance_cards",
+  "info": {
+    "displayName": "MaintenanceCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "minLength": 10
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}
