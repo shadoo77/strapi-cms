@@ -39,7 +39,7 @@
     "siteLogo": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
@@ -81,6 +81,69 @@
       "type": "string",
       "required": true,
       "default": "/"
+    },
+    "fontFamily": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "'Roboto', sans-serif"
+    },
+    "borderRadius": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "required": true,
+      "default": 8
+    },
+    "outlinedFilled": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "navType": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "required": true,
+      "default": "light"
+    },
+    "presetColor": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "theme1",
+        "theme2",
+        "theme3",
+        "theme4",
+        "theme5",
+        "theme6"
+      ],
+      "required": true,
+      "default": "default"
     }
   }
 }
