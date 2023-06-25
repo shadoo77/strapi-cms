@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "theme_configs",
+  "info": {
+    "singularName": "theme-config",
+    "pluralName": "theme-configs",
+    "displayName": "themeConfig"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "'Roboto', sans-serif"
+    },
+    "borderRadius": {
+      "type": "integer",
+      "required": true,
+      "default": 8
+    },
+    "outlinedFilled": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "navType": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "required": true,
+      "default": "light"
+    },
+    "presetColor": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "theme1",
+        "theme2",
+        "theme3",
+        "theme4",
+        "theme5",
+        "theme6"
+      ],
+      "required": true,
+      "default": "default"
+    }
+  }
+}

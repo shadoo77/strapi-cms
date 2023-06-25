@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_app_theme_configs",
+  "info": {
+    "displayName": "themeConfig",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "fontFamily": {
+      "type": "string",
+      "required": true,
+      "default": "'Roboto', sans-serif"
+    },
+    "borderRadius": {
+      "type": "integer",
+      "required": true,
+      "default": 8
+    },
+    "outlinedFilled": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "navType": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "default": "light",
+      "required": true
+    },
+    "presetColor": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "theme1",
+        "theme2",
+        "theme3",
+        "theme4",
+        "theme5",
+        "theme6"
+      ],
+      "default": "default",
+      "required": true
+    }
+  }
+}
